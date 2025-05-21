@@ -195,17 +195,14 @@ function TvScreen() {
       }}
     >
       <Box
-        className="flex flex-row items-center justify-between px-20 py-4 w-full mb-5"
-        sx={{
-          boxSizing: "border-box",
-        }}
+        className="flex flex-row bg-white items-center justify-between px-10 py-4 mx-20 rounded-xl mb-5"
       >
         <Box className="flex flex-col items-center justify-between">
           <img src={sts} alt="" className="w-52 h-48 rounded-xl" />
         </Box>
 
         {/* Carousel */}
-        <Carousel />
+        {/* <Carousel /> */}
 
         <Box
           className="flex flex-row items-center"
@@ -214,7 +211,7 @@ function TvScreen() {
             backgroundColor: "#EDE2D7",
             borderRadius: "45px",
             padding: "10px 60px",
-            marginLeft: "150px",
+            marginLeft: "0px",
           }}
         >
           <Typography
