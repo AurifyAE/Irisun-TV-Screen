@@ -107,7 +107,7 @@ const CommodityTable = ({ commodities }) => {
       {
         id: "gold-775",
         metal: "gold",
-        purity: "775",
+        purity: "755",
         unit: 1,
         weight: "GM",
         buyCharge: 0,

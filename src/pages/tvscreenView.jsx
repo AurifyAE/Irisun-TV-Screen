@@ -207,8 +207,8 @@ function TvScreen() {
         <Box
           className="flex flex-row items-center"
           sx={{
-            // backgroundColor: "rgba(255, 255, 255, 0.12)",
-            backgroundColor: "#EDE2D7",
+            // backgroundColor: "#EDE2D7",
+            backgroundColor: "#1b4b2e",
             borderRadius: "45px",
             padding: "10px 60px",
             marginLeft: "0px",
@@ -219,7 +219,7 @@ function TvScreen() {
               fontSize: "1.5vw",
               fontWeight: "600",
               fontFamily: "montserrat, sans-serif",
-              color: "black",
+              color: "white",
             }}
           >
             {day}
@@ -230,7 +230,7 @@ function TvScreen() {
               fontWeight: "600",
               fontFamily: "montserrat, sans-serif",
               marginLeft: "12px",
-              color: "black",
+              color: "white",
             }}
           >
             {date}
@@ -242,7 +242,7 @@ function TvScreen() {
               fontWeight: "600",
               marginLeft: "12px",
               fontFamily: "montserrat, sans-serif",
-              color: "black",
+              color: "white",
             }}
           >
             {month.charAt(0) + month.slice(1).toLowerCase()}
@@ -254,7 +254,7 @@ function TvScreen() {
               fontWeight: "600",
               marginLeft: "12px",
               fontFamily: "montserrat, sans-serif",
-              color: "black",
+              color: "white",
             }}
           >
             {year}
@@ -265,7 +265,7 @@ function TvScreen() {
               fontWeight: "600",
               marginLeft: "16px",
               fontFamily: "montserrat, sans-serif",
-              color: "black",
+              color: "white",
             }}
           >
             |
@@ -276,7 +276,7 @@ function TvScreen() {
               fontWeight: "600",
               marginLeft: "16px",
               fontFamily: "montserrat, sans-serif",
-              color: "black",
+              color: "white",
             }}
           >
             {getFormattedTimeWithoutSeconds(dateTime)}
